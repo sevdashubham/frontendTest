@@ -1,5 +1,11 @@
 # CodersClan Frontend Interview Test
 
+### Installation
+
+- npm install
+- node server.js
+- client running at http://localhost:3000
+
 ### Introduction
 
 If you are here it means you would like to join our Community as a Frontend developer, this is great!

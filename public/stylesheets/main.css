@@ -335,7 +335,7 @@ h6 {
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .padding-desktop {
-    padding: 0 100px; } }
+    padding: 0 10px; } }
 
 @media only screen and (min-width: 992px) and (max-width: 1600px) {
   .padding-desktop {

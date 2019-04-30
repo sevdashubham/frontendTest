@@ -1,0 +1,24 @@
+{
+  "title": "CodersClan Frontend Test",
+  "cards": [
+    {
+      "image":"images/28.png",
+      "title": "Aenean nec sem vestibulum",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut diam ac felis placerat consequat in vitae justo. Curabitur porta et dolor ac."
+    },
+    {},
+    {
+      "image":"images/11.png",
+      "title": "Aenean nec sem vestibulum",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut diam ac felis placerat consequat in vitae justo. Curabitur porta et dolor ac. Morbi quis elementum ipsum"
+    },
+    {},
+    {
+      "image":"images/35.png",
+      "background":"images/34.png",
+      "title": "Aenean nec sem vestibulum",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut diam ac felis placerat consequat in vitae justo. Curabitur porta et dolor ac. Morbi quis elementum ipsum"
+    }
+  ],
+  "cta": "Aenean vitae"
+}

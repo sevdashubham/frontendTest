@@ -1,0 +1,37 @@
+div(id= "cards")
+    h1.py-2= title
+    .line-horizontal.pb-5
+        .line
+    .row.no-gutters.padding-desktop
+        each val, i in cards
+                case i
+                    when 0
+                        .col
+                            .card-codersClan
+                                img.card-image(src=val.image)
+                                h4.py-3 #{val.title}
+                                h6 #{val.text}
+
+                    when 2
+                        .col
+                            div(id='div-card-image').padding-20.card-hover-codersClan
+                                img.card-image-tv(src=val.image id='card-image')
+                                h4(id='title-card').py-3 #{val.title}
+                                h6 #{val.text}
+                    when 4
+                        .col
+                            div(style=`background-image:url(${val.background});` + "no-repeat center center fixed").card-no-hover-codersClan.padding-20
+                                img(src=val.image).card-image-tv
+                                h4.py-3 #{val.title}
+                                h6 #{val.text}
+                    default
+                        .col-md-1.divider-main
+                            img.divider(src="images/115.png")
+
+
+.button-end.padding-top-80
+    button.button
+        span #{cta}
+
+script(src='javascripts/card.js')
+//.col-lg-4.col-md-6.col-sm-12.px-4.py-4
